@@ -126,7 +126,7 @@ bundleCommand.SetHandler((output, language, note,sort,remove, author) => {
    
 }, bundelOptionoutput, languagesOption, noteOption, sortOption, removeEmptyLinesOption, authorOption);
 
-// פקודת create-rsp
+// create-rsp command
 var createRspCommand = new Command("create-rsp", "Create a response file with pre-filled command options.");
 
 var rspOutputOption = new Option<FileInfo>(new[] { "--rsp-output", "-rsp" }, "Path to save the .rsp response file");
